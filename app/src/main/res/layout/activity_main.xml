@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:background="#000000">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello User, "
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/weather"
+        android:id="@+id/cardweather"
+        android:layout_below="@+id/name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/weather"
+            />
+
+        <TextView
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+        />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/weather"
+        android:id="@+id/cardaskexpert"
+        android:layout_toRightOf="@+id/cardweather"
+        android:layout_below="@id/name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/askexpert" />
+
+        <TextView
+            android:id="@+id/askexpert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ask Expert"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/weather"
+        android:id="@+id/cardupload"
+        android:layout_below="@+id/cardweather">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/upload" />
+
+        <TextView
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/weather"
+        android:id="@+id/cardmycrops"
+        android:layout_below="@+id/cardaskexpert"
+        android:layout_toRightOf="@+id/cardupload">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mycrops" />
+
+        <TextView
+            android:id="@+id/mycrops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Crops"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

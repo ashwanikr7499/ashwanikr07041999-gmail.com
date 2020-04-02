@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394674156548",
+    "firebase_url": "https://kisan-3da9d.firebaseio.com",
+    "project_id": "kisan-3da9d",
+    "storage_bucket": "kisan-3da9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394674156548:android:c83b567a67488432a7f151",
+        "android_client_info": {
+          "package_name": "com.example.kisan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394674156548-gs3ppf61jru2cc7tmvus7ahhgctd271r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kisan",
+            "certificate_hash": "90a9b4a737f6c3db92f66d2fadc93fffbb202efd"
+          }
+        },
+        {
+          "client_id": "394674156548-f855rpf2q2kkrm3eh7d9ju9i5s2gtjhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOQ0AA5OFBwnVjfoeRm813VTu4FcHjnro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394674156548-f855rpf2q2kkrm3eh7d9ju9i5s2gtjhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
